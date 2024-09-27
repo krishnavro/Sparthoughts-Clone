@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    background-color: black;
+    height: 80px;
+    z-index: 100;
+}
+.logo{
+    width: 15%;
+}
+
+.home,.services,.contact-us{
+   color: white;
+   font-size: 20px;
+}
+.right-section{
+margin-right: 220px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.home,.services{
+    margin-right: 20px;
+}
+.left-section{
+    margin-left: 170px;
+}
+h4,a{
+    text-decoration: none;
+    color: #ffff;
+}

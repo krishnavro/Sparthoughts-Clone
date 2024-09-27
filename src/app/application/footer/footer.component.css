@@ -1,0 +1,44 @@
+footer{
+    display: flex;
+    background-color: rgb(13, 39, 53);
+    height: 300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.footer-main{
+        
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 450px;
+}
+
+
+.links-div{
+    margin-left: 170px;
+    margin-top: 80px;
+    font-size: 18px;
+    color: white;
+}
+.media-div{
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 18px;
+    color: white;
+}
+.contacts-div{
+    font-size: 17px;
+    margin-top: 50px;
+    color: white;
+}
+.about-div{
+    margin-top: 50px;
+    font-size: 17px;
+    color: white;
+}

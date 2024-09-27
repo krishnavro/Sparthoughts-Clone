@@ -1,0 +1,139 @@
+.main-div{
+    margin-top: 90px;
+    
+    height: 1250px
+    
+}
+.contact-heading{
+    display: flex;
+    background-color:  #f3f8fa;
+    height: 60px;
+    font-size: 28px;
+    padding-left: 120px;
+    
+ }
+ 
+ .contact-1{
+    background-color: white;
+    display: grid;
+    width: 1200px;
+    margin-left: 140px;
+    height: 250px;
+    box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
+    margin-top: 50px;
+ }
+ .contact-1-img img{
+      margin-left: 600px;
+
+      margin-top: 50px;
+     
+ }
+ .contact-1-data{
+    margin-left: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+ }
+ .contact-1-img {
+   align-items: center;
+   justify-content: center; 
+
+}
+.contact-part-2{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    margin-top: 50px;
+    width: 1200px;
+    margin-left: 140px;
+    height: 200px;
+    
+}
+.contact-2{
+    background-color: white;
+    text-align: center;
+    box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
+}
+.contact-2-img{
+    margin-top: 50px;
+}
+.contact-3{
+    background-color: white;
+    text-align: center;
+    box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
+}
+.contact-3-img{
+   margin-top: 50px;
+}
+
+.contact-part-3{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    margin-top: 100px;
+    width: 1200px;
+    margin-left: 140px;
+    height: 250px;
+    
+}
+.contact-4{
+    background-color: white;
+    text-align: center;
+    box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
+}
+.contact-4-img{
+    margin-top: 50px;
+}
+.contact-5{
+    background-color: white;
+    text-align: center;
+    box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
+}
+.contact-5-img{
+    margin-top: 50px;
+}
+.contact-part-4{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    margin-top: 50px;
+    width: 1200px;
+    margin-left: 140px;
+    height: 200px;
+    
+}
+.contact-6{
+    background-color: white;
+    text-align: center;  
+    box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
+}
+.contact-6-img{
+    margin-top: 50px;
+}
+.contact-7{
+    background-color: white;
+    text-align: center;
+    box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
+}
+.contact-img-7{
+    margin-top: 50px;
+}
+.contact-8{
+    background-color: white;
+    text-align: center;
+    box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
+}
+.contact-8-img{
+    margin-top: 50px;
+}
+.contact-9{
+    background-color: white;
+    text-align: center;
+    box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
+}
+.contact-9-img{
+    margin-top: 50px;
+}
