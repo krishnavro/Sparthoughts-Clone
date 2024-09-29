@@ -4,11 +4,7 @@
     display: flex;
     flex-direction: column;
 }
-@media only screen and (max-width:600px){
-  .cloud-div{
-    grid-template-columns: 1fr;
-  }
-}
+
 p{
     
     color: black;
@@ -125,10 +121,10 @@ margin-top: 100px;
     background-color: pink;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .cloud-div{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     height: 330px;
     background-color: rgb(252, 6, 47);
   }
