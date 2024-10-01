@@ -1,7 +1,7 @@
 .main-div{
     margin-top: 90px;
     
-    height: 1250px
+    height: auto;
     
 }
 .contact-heading{
@@ -15,23 +15,25 @@
  
  .contact-1{
     background-color: white;
-    display: grid;
-    width: 1200px;
-    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+   margin: 30px auto;
     height: 250px;
     box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
     margin-top: 50px;
  }
  .contact-1-img img{
-      margin-left: 600px;
+     
 
-      margin-top: 50px;
+      margin-top: 22px;
      
  }
  .contact-1-data{
-    margin-left: 40px;
+    margin: 20px;
     text-align: center;
-    margin-bottom: 30px;
+    
     font-size: 18px;
  }
  .contact-1-img {
@@ -43,97 +45,165 @@
     
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 50px;
-    margin-top: 50px;
-    width: 1200px;
-    margin-left: 140px;
-    height: 200px;
+   column-gap: 20px;
+    
+    width: 90%;
+    margin: 20px auto;
+    
     
 }
 .contact-2{
     background-color: white;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
     box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
 }
 .contact-2-img{
-    margin-top: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 .contact-3{
     background-color: white;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
     box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
 }
 .contact-3-img{
-   margin-top: 50px;
+   margin: 0 auto;
+   margin-top: 20px;
 }
 
 .contact-part-3{
     
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 50px;
-    margin-top: 100px;
-    width: 1200px;
-    margin-left: 140px;
+   column-gap: 20px;
+    
+    width: 90%;
+    margin: 20px auto;
     height: 250px;
     
 }
 .contact-4{
     background-color: white;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
     box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
 }
 .contact-4-img{
-    margin-top: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 .contact-5{
     background-color: white;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
     box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
 }
 .contact-5-img{
-    margin-top: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 .contact-part-4{
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 50px;
-    margin-top: 50px;
-    width: 1200px;
-    margin-left: 140px;
-    height: 200px;
+   column-gap: 20px;
+    
+    width: 90%;
+    margin: 20px auto;
+    
     
 }
 .contact-6{
     background-color: white;
-    text-align: center;  
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;  
     box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
 }
 .contact-6-img{
-    margin-top: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 .contact-7{
     background-color: white;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
     box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
 }
 .contact-img-7{
-    margin-top: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 .contact-8{
     background-color: white;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
     box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
 }
 .contact-8-img{
-    margin-top: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 .contact-9{
     background-color: white;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
     box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
 }
 .contact-9-img{
-    margin-top: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-part-2, .contact-part-3, .contact-part-4 {
+        grid-template-columns: 1fr; 
+        column-gap: 10px;
+        row-gap: 30px;
+    }
+
+    .contact-1 {
+        width: 100%; 
+    }
+    .contact-4-data p {
+        white-space: normal; 
+        word-wrap: break-word;
+    }
+    .contact-part-4{
+        margin-top: 250px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-heading {
+        font-size: 24px;
+    }
+
+    .contact-1-data, .contact-2-data, .contact-3-data, .contact-4-data, .contact-5-data, .contact-6-data, .contact-7-data, .contact-8-data, .contact-9-data {
+        font-size: 14px; 
+    }
+
+    .contact-part-2, .contact-part-3, .contact-part-4 {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+    .contact-1 {
+        margin-top: 20px;
+    }
+    
+
+    
+    .contact-2, .contact-3, .contact-4, .contact-5, .contact-6, .contact-7, .contact-8, .contact-9 {
+        margin-bottom: 30px; 
+    }
 }
