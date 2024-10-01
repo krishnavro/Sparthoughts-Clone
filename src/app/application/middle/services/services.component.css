@@ -1,5 +1,6 @@
 .main-div{
     margin-top: 85px;
+    height: auto;
     
 }
 
@@ -13,34 +14,31 @@
 }
 .card-container{
     margin-top: 50px;
-    height: 390px;
-    
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 .card-1,.card-2,.card-3,.card-4{
    background-color: white;
     width: 230px;
-    margin-left: 80px;
+    margin: 20px;
     vertical-align: center;
-    margin-left: 50px;
     box-shadow: rgb(140, 140, 140) 2px 2px 7px 2px;
+    transition: box-shadow 0.3s ease;
 
 
 }
-.card-1:hover{
-    background-color: white;
-    width: 230px;
-    margin-left: 80px;
-    vertical-align: center;
-    margin-left: 50px;
-    box-shadow: rgb(253, 6, 6) 2px 2px 7px 2px;
+.card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover{
+    box-shadow: rgb(95, 95, 95) 0 0 5px 2px;
 }
 .card-1-img img,.card-2-img img,.card-3-img img,.card-4-img img{
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     height: 30px;
     margin-top: 10px;
+    
     
 }
 .card-1-data-head,.card-2-head,.card-3-head,.card-4-head{
@@ -57,11 +55,12 @@
 }
 .service-work{
     background-color: #f3f8fa;
-    height: 500px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5px;
+    padding-bottom: 50px;
     
 }
 .service-work-section{
@@ -71,7 +70,7 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    
+    margin-top: 50px;
     justify-content: left;
 
 }
@@ -91,4 +90,68 @@
 }
 .service-work-data-2{
 font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+    .services-heading {
+        font-size: 24px;
+        padding-left: 40px;
+    }
+
+    .card-container {
+        justify-content: space-around;
+    }
+
+    .card-1, .card-2, .card-3, .card-4 {
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-1, .card-2, .card-3, .card-4 {
+        width: 70%;
+        margin: 10px 0;
+    }
+    
+    .service-work-section {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 250px;
+        padding-top: 50px;
+        margin-top: 50px;
+    }
+
+    .service-work-img img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .service-work-data {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    
+  
+}
+
+@media (max-width: 480px) {
+    .services-heading {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .card-1, .card-2, .card-3, .card-4 {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .service-work-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .service-work-data {
+        font-size: 16px;
+    }
 }
