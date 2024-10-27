@@ -12,7 +12,7 @@ header{
     z-index: 100;
 }
 .logo{
-    width: 15%;
+    width: 100px;
 }
 
 .home,.services,.contact-us{
